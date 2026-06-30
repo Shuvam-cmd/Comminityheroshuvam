@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-natural-bg: #F8FAFC;
+  --color-natural-text: #1F2937;
+  --color-natural-primary: #2E7D32;
+  --color-natural-primary-dark: #1B5E20;
+  --color-natural-accent: #F59E0B;
+  --color-natural-accent-dark: #D97706;
+  --color-natural-border: #E5E7EB;
+  --color-natural-card: #FFFFFF;
+  --color-natural-badge: #6B7280;
+  --color-natural-light: #E8F5E9;
+}
+
+/* Custom scrollbar matching the theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5E7EB;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2E7D32;
+}
+
+body {
+  background-color: #F8FAFC;
+  color: #1F2937;
+  font-family: var(--font-sans);
+}

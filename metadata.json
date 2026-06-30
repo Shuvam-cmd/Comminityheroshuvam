@@ -1,0 +1,6 @@
+{
+  "name": "Community Hero",
+  "description": "Hyperlocal problem solver for community infrastructure issues like potholes, streetlights, and waste.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
