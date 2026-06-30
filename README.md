@@ -1,35 +1,48 @@
 # 🌍 Community Hero
 
-A full-stack MERN application that empowers citizens to report, track, and manage community issues such as potholes, garbage, water leakage, broken street lights, and road damage. The platform provides secure authentication, image uploads, and an intuitive dashboard for efficient issue management.
+A full-stack MERN application that enables citizens to report, track, and manage community issues efficiently. Users can securely report problems, upload images, monitor issue status, and manage their reports through an intuitive dashboard.
 
 ---
 
 ## 🚀 Live Demo
 
-**Frontend:** Coming Soon
-
-**Backend:** https://community-hero-3.onrender.com
+👉 **https://community-hero-22737963725.asia-southeast1.run.app/**
 
 ---
 
-## 📖 Features
+## 📌 Overview
 
-- 🔐 Secure User Authentication (JWT)
+Community Hero is designed to bridge the gap between citizens and local authorities by providing a centralized platform for reporting and tracking public issues such as:
+
+- 🛣️ Potholes
+- 🗑️ Garbage Collection
+- 💧 Water Leakage
+- 💡 Broken Street Lights
+- 🚧 Road Damage
+- 🌳 Public Infrastructure Issues
+
+The platform allows users to create reports, upload supporting images, and monitor the progress of each issue.
+
+---
+
+# ✨ Features
+
+- 🔐 Secure JWT Authentication
 - 👤 User Registration & Login
 - 📝 Report Community Issues
-- 📷 Upload Issue Images
-- 📍 Track Reported Issues
-- 📊 User Dashboard
-- 👤 Manage User Profile
-- 📱 Responsive Design
-- ☁️ Cloud Image Storage
-- ⚡ RESTful API Architecture
+- 📷 Image Upload Support
+- 📍 Track Issue Status
+- 📂 View Issue Details
+- 👤 User Profile Management
+- 📊 Personal Dashboard
+- ⚡ RESTful APIs
+- 📱 Responsive UI
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠 Tech Stack
 
-### Frontend
+## Frontend
 
 - React.js
 - TypeScript
@@ -38,7 +51,7 @@ A full-stack MERN application that empowers citizens to report, track, and manag
 - Axios
 - CSS
 
-### Backend
+## Backend
 
 - Node.js
 - Express.js
@@ -47,27 +60,28 @@ A full-stack MERN application that empowers citizens to report, track, and manag
 - Multer
 - Cloudinary
 
-### Database
+## Database
 
 - MongoDB Atlas
 - Mongoose
 
-### Deployment
+## Deployment
 
+- Google Cloud Run
 - Render
 - GitHub
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 community-hero/
 │
 ├── client/
 │   ├── src/
-│   ├── pages/
 │   ├── components/
+│   ├── pages/
 │   ├── routes/
 │   └── assets/
 │
@@ -77,22 +91,21 @@ community-hero/
 │   ├── models/
 │   ├── routes/
 │   ├── utils/
-│   └── server.ts
+│   ├── server.ts
+│   └── tsconfig.json
 │
 └── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
-### Clone the Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/Shuvam-cmd/community-hero.git
 ```
-
-Move into the project directory:
 
 ```bash
 cd community-hero
@@ -120,27 +133,29 @@ npm run dev
 
 ---
 
-## 🔑 Environment Variables
+# 🔑 Environment Variables
 
-Create a `.env` file inside the `server` folder and add:
+Create a `.env` file inside the `server` folder.
 
 ```env
 PORT=5000
+
 MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+
+JWT_SECRET=your_jwt_secret
 
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
-GEMINI_API_KEY=your_api_key
+GEMINI_API_KEY=your_gemini_api_key
 ```
 
 ---
 
-## 📡 API Endpoints
+# 📡 API Endpoints
 
-### Authentication
+## Authentication
 
 ```
 POST /api/auth/register
@@ -148,66 +163,69 @@ POST /api/auth/login
 GET /api/auth/profile
 ```
 
-### Issues
+## Issues
 
 ```
-GET /api/issues
-POST /api/issues
-GET /api/issues/:id
-PUT /api/issues/:id
+GET    /api/issues
+POST   /api/issues
+GET    /api/issues/:id
+PUT    /api/issues/:id
 DELETE /api/issues/:id
 ```
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-> Add screenshots of:
+Add screenshots of:
+
 - Home Page
 - Login Page
+- Register Page
 - Dashboard
 - Report Issue Page
-- Issue Details
+- Issue Details Page
 
 ---
 
-## 🎯 Future Enhancements
+# 🎯 Future Enhancements
 
-- Admin Dashboard
-- Email Notifications
-- Google Maps Integration
-- AI-powered Issue Categorization
-- Push Notifications
-- Issue Analytics
-- Real-time Updates
+- 🛡️ Admin Dashboard
+- 📧 Email Notifications
+- 🗺️ Google Maps Integration
+- 🤖 AI-Based Issue Categorization
+- 📈 Analytics Dashboard
+- 🔔 Push Notifications
+- 💬 Real-Time Updates
 
 ---
 
-## 🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome!
 
 1. Fork the repository
-2. Create a new feature branch
+2. Create a feature branch
 3. Commit your changes
 4. Push to your branch
 5. Open a Pull Request
 
 ---
 
-## 📄 License
+# 📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Shuvam**
 
 - GitHub: https://github.com/Shuvam-cmd
-- LinkedIn: *(Add your LinkedIn profile)*
 
 ---
 
-⭐ If you found this project useful, don't forget to star the repository!
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a **⭐ Star** on GitHub. It helps others discover the project and motivates future improvements.
